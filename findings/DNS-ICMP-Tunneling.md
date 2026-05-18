@@ -44,7 +44,9 @@ The observed pattern strongly indicates DNS tunneling behaviour. The subdomain s
 ## Evidence
 
 ![DNS Tunneling](../screenshots/DNS-Tunneling.png)
+
 https://github.com/rodrigoguadano/Network-Traffic-Analysis-with-Wireshark/blob/61364e9de58f32809c4250ed5a48162cf8056231/Screenshots/DNS-Tunneling.png
+
 ## Conclusion
 
 This traffic is highly consistent with active DNS tunneling, likely used to exfiltrate data covertly from the internal network.
