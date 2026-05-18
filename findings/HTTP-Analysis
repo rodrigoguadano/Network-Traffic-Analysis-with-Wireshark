@@ -2,7 +2,11 @@
 
 A large number of HTTP GET requests were captured targeting the DVWA web application.
 
-All requests were generated using the following User-Agent:
+## HTTP User-Agent Analysis
+
+The Wireshark filter `http.user_agent` was used to inspect HTTP client identification strings.
+
+The following User-Agent was identified:
 
 Wfuzz/2.4
 
