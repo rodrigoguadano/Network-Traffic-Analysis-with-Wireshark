@@ -7,7 +7,6 @@ Investigate suspicious ARP activity and possible Man-in-the-Middle behaviour.
 ## Filter Used
 
 arp
-arp.duplicate-address-detected
 
 arp.duplicate-address-detected
 
