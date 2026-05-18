@@ -1,4 +1,4 @@
-### ICMP Reconnaissance Activity (Ping Sweep)
+# ICMP Reconnaissance Activity (Ping Sweep)
 
 A series of ICMP Echo Requests were observed occurring at approximately 1-second intervals.
 
@@ -17,7 +17,7 @@ The consistent timing pattern strongly suggests automated ICMP-based host discov
 
 The traffic is consistent with automated network reconnaissance activity aimed at identifying active hosts within the subnet.
 
-### DNS Tunneling Activity (Potential Data Exfiltration)
+# DNS Tunneling Activity (Potential Data Exfiltration)
 
 A high volume of DNS queries was observed targeting the domain dataexfil.com.
 
