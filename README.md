@@ -1,37 +1,40 @@
 # Wireshark Traffic Analysis Project
 
-## 1. Overview
+## Overview
 
-This project demonstrates practical network traffic analysis using Wireshark, focusing on identifying anomalies, suspicious behaviour, and potential security threats within packet captures (PCAP files).
+This project demonstrates network traffic analysis using Wireshark to detect suspicious activity, network scans, spoofing attempts and protocol anomalies.
 
-The analysis emphasises correlating low-level packet data to build a broader understanding of network activity, simulating real-world SOC Analyst workflows.
+## Skills Demonstrated
 
----
+- Packet Analysis
+- TCP/IP Analysis
+- Protocol Inspection
+- Threat Hunting
+- Network Security Monitoring
+- Wireshark Filtering
+- Incident Investigation
 
-## 2. Skills Demonstrated
+## Protocols Analysed
 
-- Packet-level traffic analysis  
-- Protocol inspection (HTTP, DNS, TCP)  
-- Detection of anomalous and suspicious network behaviour  
-- Traffic correlation across multiple protocols  
-- Use of advanced Wireshark filters and search techniques  
-- Identification of Indicators of Compromise (IOCs)  
+- TCP
+- UDP
+- HTTP
+- DNS
+- ICMP
+- ARP
+- TLS/HTTPS
 
----
+## Investigations Included
 
-## 3. Tools
+- Nmap TCP Connect Scans
+- SYN Scans
+- UDP Scans
+- ARP Spoofing Detection
+- DNS Tunnelling Detection
+- HTTP User-Agent Analysis
+- TLS Handshake Analysis
 
-- Wireshark  
-- TryHackMe Labs  
+## Tools Used
 
----
-
-## 4. Methodology
-
-The analysis process follows a structured investigative approach:
-
-- Applying packet filtering to isolate relevant traffic  
-- Identifying suspicious patterns and anomalies in network behaviour  
-- Following TCP streams to reconstruct full communications  
-- Extracting key indicators such as IP addresses, domains, and URIs  
-- Correlating findings across multiple packets and protocols to determine potential threats  
+- Wireshark
+- Nmap
