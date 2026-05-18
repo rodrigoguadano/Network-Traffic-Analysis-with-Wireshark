@@ -30,7 +30,7 @@ The traffic shows systematic enumeration of the web server using a wordlist-base
 
 ## Evidence
 
-https://github.com/rodrigoguadano/Network-Traffic-Analysis-with-Wireshark/blob/fff0cdeb558610cae95a8ca2e3342839c2679805/Screenshots/HTTP-Analysis.png
+![HTTP-Analysis](../Screenshots/HTTP-Analysis.png)
 
 ## Conclusion
 
