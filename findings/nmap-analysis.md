@@ -29,7 +29,7 @@ Detected multiple TCP SYN packets originating from a single host targeting multi
 
 ## Evidence
 
-Screenshots/Nmap-Scan.png
+https://github.com/rodrigoguadano/Network-Traffic-Analysis-with-Wireshark/blob/4b28c2d65e8598a16f4527a7e58fe898e90ece3e/Screenshots/Nmap-Scan.png
 
 ## Conclusion
 
