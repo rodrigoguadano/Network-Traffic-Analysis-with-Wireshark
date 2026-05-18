@@ -15,7 +15,7 @@ The consistent timing pattern strongly suggests automated ICMP-based host discov
 
 ## Evidence
 
-https://github.com/rodrigoguadano/Network-Traffic-Analysis-with-Wireshark/blob/db4e7db373b07c4013c3cdde0ef53a7af9b4436d/Screenshots/ICMP-Analysis.png
+(../Screenshots/ICMP-Analysis.png)
 
 
 ## Conclusion
@@ -43,7 +43,7 @@ The observed pattern strongly indicates DNS tunneling behaviour. The subdomain s
 
 ## Evidence
 
-![DNS Tunneling](../screenshots/DNS-Tunneling.png)
+![DNS Tunneling](../Screenshots/DNS-Tunneling.png)
 
 https://github.com/rodrigoguadano/Network-Traffic-Analysis-with-Wireshark/blob/61364e9de58f32809c4250ed5a48162cf8056231/Screenshots/DNS-Tunneling.png
 
