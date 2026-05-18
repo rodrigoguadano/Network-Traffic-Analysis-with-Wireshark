@@ -13,6 +13,10 @@ A series of ICMP Echo Requests were observed occurring at approximately 1-second
 
 The consistent timing pattern strongly suggests automated ICMP-based host discovery (ping sweep). This technique is commonly used during the reconnaissance phase to identify live hosts in the network before launching further attacks.
 
+## Evidence
+
+https://github.com/rodrigoguadano/Network-Traffic-Analysis-with-Wireshark/blob/db4e7db373b07c4013c3cdde0ef53a7af9b4436d/Screenshots/ICMP-Analysis.png
+
 ## Conclusion
 
 The traffic is consistent with automated network reconnaissance activity aimed at identifying active hosts within the subnet.
