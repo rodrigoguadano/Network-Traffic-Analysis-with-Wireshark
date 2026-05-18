@@ -1,0 +1,29 @@
+## HTTP Web Enumeration Analysis
+
+A large number of HTTP GET requests were captured targeting the DVWA web application.
+
+All requests were generated using the following User-Agent:
+
+Wfuzz/2.4
+
+This indicates the use of an automated web fuzzing tool.
+
+### Observed Behaviour
+
+The attacker attempted to discover hidden or sensitive files by brute-forcing common filenames and directories, including:
+
+- /.bashrc.php
+- /.profile.php
+- /_install.php
+- /_media.php
+- /~sys.php
+- /2007.php
+- /2012.php
+
+### Analysis
+
+The traffic shows systematic enumeration of the web server using a wordlist-based approach. This is typical of reconnaissance activity prior to exploitation.
+
+## Conclusion
+
+The HTTP traffic indicates active web application reconnaissance against DVWA using automated fuzzing tools (Wfuzz), likely as part of a broader attack chain.
