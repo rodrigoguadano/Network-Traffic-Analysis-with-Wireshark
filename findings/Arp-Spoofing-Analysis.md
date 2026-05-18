@@ -59,7 +59,7 @@ The suspicious host attempted to impersonate the default gateway in order to red
 
 ## Evidence
 
-![ARP Spoofing](../screenshots/arp-spoof.png)
+![ARP Spoofing](../screenshots/ARP-Spoof.png)
 
 ## Conclusion
 
