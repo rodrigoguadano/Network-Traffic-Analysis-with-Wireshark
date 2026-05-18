@@ -17,6 +17,7 @@ The consistent timing pattern strongly suggests automated ICMP-based host discov
 
 https://github.com/rodrigoguadano/Network-Traffic-Analysis-with-Wireshark/blob/db4e7db373b07c4013c3cdde0ef53a7af9b4436d/Screenshots/ICMP-Analysis.png
 
+
 ## Conclusion
 
 The traffic is consistent with automated network reconnaissance activity aimed at identifying active hosts within the subnet.
@@ -39,6 +40,10 @@ Each query contained unusually long, structured subdomains composed of hexadecim
 ## Analysis
 
 The observed pattern strongly indicates DNS tunneling behaviour. The subdomain structure suggests encoded or fragmented data being transmitted via DNS requests, a common technique used for data exfiltration or command-and-control (C2) communication.
+
+## Evidence
+
+![DNS Tunneling](screenshots/DNS-Tunneling.png)
 
 ## Conclusion
 
