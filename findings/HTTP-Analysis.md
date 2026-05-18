@@ -28,6 +28,10 @@ The attacker attempted to discover hidden or sensitive files by brute-forcing co
 
 The traffic shows systematic enumeration of the web server using a wordlist-based approach. This is typical of reconnaissance activity prior to exploitation.
 
+## Evidence
+
+https://github.com/rodrigoguadano/Network-Traffic-Analysis-with-Wireshark/blob/fff0cdeb558610cae95a8ca2e3342839c2679805/Screenshots/HTTP-Analysis.png
+
 ## Conclusion
 
 The HTTP traffic indicates active web application reconnaissance against DVWA using automated fuzzing tools (Wfuzz), likely as part of a broader attack chain.
